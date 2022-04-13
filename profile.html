@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aveto dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+      <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="navbar-container">
+            <div class="toggle-icon">
+                <span class="material-icons-sharp btn-open">
+                    menu
+                    </span>
+                    <span class="material-icons-sharp btn-close">
+                        close
+                        </span>    
+            </div>
+            <div class="nav-logo">
+                <img src="aveto.webp">
+            </div>
+            <div class="passport">
+                <h3>welcome! Austinedavid</h3>
+                <div class="pass-photo">
+                    <img src="photo.png" alt="passport">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- the second div for the menu -->
+    <div class="menu-section">
+        <div class="menu-container">
+            <div class="menu-items">
+                <a href="index.html" class="menu-flex">
+                    <span class="material-icons-sharp">
+                        grid_view
+                        </span>
+                    <h4>Dashboard</h4>
+                </a>
+            </div>
+            <div class="menu-items" class="menu-flex">
+                <a href="buy.html" class="menu-flex">
+                    <span class="material-icons-sharp">
+                        monetization_on
+                        </span>
+                    <h4>Buy Token</h4>
+                </a>
+            </div>
+            <div class="menu-items" class="menu-flex">
+                <a href="offering.html" class="menu-flex">
+                    <span class="material-icons-sharp">
+                        token
+                        </span>
+                    <h4>Ico Distribution</h4>
+                </a>
+            </div>
+            <div class="menu-items">
+                <a href="trans.html" class="menu-flex">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                        </span>
+                    <h4>Transaction</h4>
+                </a>
+            </div>
+            <div class="menu-items">
+                <a href="profile.html" class="menu-flex">
+                    <span class="material-icons-sharp">
+                        remember_me
+                        </span>
+                    <h4>Profile</h4>
+                </a>
+            </div>
+            <div class="menu-items">
+                <a href="#" class="menu-flex">
+                    <span class="material-icons-sharp">
+                        shopping_bag
+                        </span>
+                    <h4>My Token</h4>
+                </a>
+            </div>
+            <div class="menu-items">
+                <a href="#" class="menu-flex">
+                    <span class="material-icons-sharp">
+                        home
+                        </span>
+                    <h4>Main Site</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is the first part of cards in the buy link of the site-->
+    <section>
+        <div class="containers card phase-3 phase-last">
+            <div class="profile-main-div">
+                <div class="profile-main-upper-div card">
+                    <h2>Profle Details</h2>
+                    <div class="group-changer">
+                        <div class="group-changer-div active ps-btn"><h3>PERSONAL DATA</h3></div>
+                        <div class="group-changer-div st-btn"><h3>SETTINGS</h3></div>
+                        <div class="group-changer-div pa-btn"><h3>PASSWORD</h3></div>
+                    </div>
+                    <!-- =========================== beginning of personal data ============================= -->
+                    <div class="profiles ">
+                        <form class="profile-form">
+                            <div class="left-profiles">
+                                <div class="form-group">
+                                    <input class="form-input" type="text" id="name" placeholder=" ">
+                                    <label class="form-label"  for="name">NAME</label>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-input"  type="number" id="mobile-number"  placeholder=" ">
+                                    <label class="form-label" for="name">MOBILE NUMBER</label>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-input"  type="text" id="nationality"  placeholder=" ">
+                                    <label class="form-label" for="name">NATIONALITY</label>
+                                </div>
+
+                                <div class="profile-btn">
+                                    <button>update profile</button>
+                                </div>
+                            </div>
+                            <div class="right-profiles">
+                                <div class="form-group">
+                                    <input class="form-input"  type="text" id="name"  placeholder=" ">
+                                    <label class="form-label" for="name">EMAIL ADDRESS</label>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-input"  type="text" id="date"  placeholder=" " >
+                                    <label class="form-label" for="name">DATE OF BIRTH</label>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- =========================== beginning of settings =================================== -->
+                    <div class="settings">
+                        <div class="setting-heading"> <h2>Security Settings</h2></div>
+                        <div class="setting-roll">
+                            <div class="setting-span-1 settingA">
+                                <div class="setting-span-2" data-move="flase"></div>
+                            </div>
+                            <div><p><a href="#">Save my activities log</a></p></div>
+                        </div>
+                        <div class="setting-roll">
+                            <div class="setting-span-1 settingB">
+                                <div class="setting-span-2 setting-span-2x" data-move="flase"></div>
+                            </div>
+                            <div><p><a href="#">Alert me by email <span class="cut-in-mobile">in case of unusual activity in my account</span></a></p></div>
+                        </div>
+                        <div class="setting-btn">
+                            <button>Update</button>
+                        </div>
+                    </div>
+                    <!-- =========================== beginning of passwords ================================== -->
+                    <div class="passwords">
+                        <form action="">
+                            <div class="password-form-group">
+                                <label for="password">Old Password</label>
+                                <input type="password" id="password">
+                            </div>
+                            <div class="password-form-group">
+                                <label for="new-password">New Password</label>
+                                <input type="text" id="new-password">
+                            </div>
+                            <div class="password-form-group">
+                                <label for="re-password">Repeat Password</label>
+                                <input type="password" id="re-password">
+                            </div>
+
+                            <div class="warning-password-writeup">
+                                <div class="warning-1">
+                                <span class="material-icons-sharp">
+                                    error
+                                </span>
+                                <p>
+                                    Password should be a minimum of 6 digits and include lower and uppercase letter
+                                </p>
+                                </div>
+                                <div class="warning-2">
+                                    <span class="material-icons-sharp">
+                                        error
+                                    </span>
+                                    <p>
+                                    
+                                    Your password will only change after your confirmation by email.
+                                    </p>
+                                    </div>
+                            </div>
+                            <div class="passwords-btn">
+                                <button>update</button>
+                            </div>
+                        </form>
+                       
+                    </div>
+                </div>
+                <div class="profile-main-lower-div card">
+                    <h2>Two-Factor Verification</h2>
+                    <p>Two-factor authentication is a method for protection of your account. When it is activated you are required to enter not only your password, but also a special code. You can receive this code in mobile app. Even if third party gets access to your password, they still won't be able to access your account without the 2FA code.
+
+                    </p>
+                    <div class="current-status">
+                        <p class="two-factor"><a href="#">Enable 2FA</a></p>
+                        <p class="currents">CURRENT STATUS: <span>DISABLED</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="phase-3-last profile-aside">
+                
+                <div class="card card3 phase-3-card-2 ">
+                    <div><h4>YOUR ACCOUNT STATUS</h4></div>
+                    <div><a href="#">email verified</a></div>
+                    <div><h4>Recieving Wallet</h4></div>
+                    <div><p>OXFD5609345....2ERD54</p></div>
+                </div>
+                <div class="card card3">
+                    <div class="phase-3-link-1">
+                        <h3>Earn with Referral</h3>
+                        <p>MORE <span class="material-icons-sharp">
+                            keyboard_arrow_right
+                            </span></p>
+                    </div>
+                    <div>
+                        <P>Invite your friends & family.</P>
+                    </div>
+                    <div class="phase-3-link-2">
+                        <P><span class="material-icons-sharp">
+                            attachment
+                            </span>
+                        </P>
+                        <P>https://avo-token.com/invite?re</P>
+                        <P><span class="material-icons-sharp copied">
+                            file_copy
+                            </span>
+                        </P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+ 
+    
+    <script src="index.js"></script>
+</body>
+</html>

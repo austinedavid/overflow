@@ -1,0 +1,951 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: black;
+    overflow-x: hidden;
+   
+}
+/* html{
+    overflow: scroll;
+} */
+body{
+    background-color: rgb(223, 210, 210);
+}
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    
+    
+}
+.navbar-container{
+    max-width: 1112px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nav-logo img{
+    width: 8rem;
+}
+.pass-photo{
+    width: 4rem;
+    height: 4rem ;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pass-photo img{
+    width: 3rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.passport{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 1rem;
+}
+.toggle-icon{
+    position: relative;
+    display: none;
+
+}
+.btn-open{
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+}
+.btn-close{
+    font-size: 2rem;
+    color: white;
+}
+.passport h3{
+    color: white;
+}
+
+/* menu section of the css */
+.menu-section{
+    width: 100%;
+    height: 60px;
+    color: black;
+   
+    
+    background-color: white;
+}
+.menu-container{
+    width: 1134px;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.menu-flex{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.menu-flex span{
+    color: rgb(16, 19, 56);
+}
+.menu-flex h4{
+    color: rgb(16, 19, 56);
+}
+.menu-items{
+    transition: transform 350ms ease;
+    padding-bottom: 0.8rem;
+}
+.menu-items:hover{
+    border-bottom: 2px solid black;
+}
+
+/* ============= utility clases ============ */
+.containers{
+    max-width: 1112px;
+    padding: 0 10px;
+   margin: 3rem auto;
+}
+
+.card{
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+/* =========== utility ends here ============= */
+
+
+/* ============== cards are in this area ============== */
+.first-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.card1{
+    background-color: rgb(37, 37, 71);
+    display: flex;
+   
+}
+.card1-first-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card1-last-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card1-first{
+    display: flex;
+    gap: 1rem;
+    
+}
+.card1-last{
+    display: flex;
+    gap: 1rem;
+}
+.white h4 {
+    color: white;
+}
+.white h2{
+    color: white;
+}
+.white p{
+    color: white;
+}
+.white h5{
+    color: white;
+}
+.card2-first-flex .running{
+    background-color: rgb(119, 156, 119);
+    padding: 0.2rem 0.3rem;
+    border-radius: 5px;
+    color: white;
+}
+.card1 img{
+    width: 2rem;
+   }
+   .card2{
+       background-color: white;
+       color: black;
+   }
+   .card2 h5{
+       color: black;
+   }
+   .card2 p{
+       color: black;
+   }
+   .card2 h2{
+       color: black;
+   }
+   .card2 a{
+       background-color: rgb(37, 37, 71);
+       color: white;
+       text-decoration: none;
+       padding: 1rem 2rem;
+       border-radius: 5px;
+   }
+   .card2-first-flex{
+       display: flex;
+       gap: 0.5rem;
+   }
+   .card2-last-flex{
+       display: flex;
+       flex-direction: column;
+       gap: 2rem;
+   }
+
+   .card3{
+       background-color: white;
+       color: black;
+       display: flex;
+       flex-direction: column;
+       gap: 1rem;
+   }
+   .card3 div h4{
+       color: black;
+   }
+   .card3 div a{
+       color: white;
+       text-decoration: none;
+       background-color: rgb(119, 156, 119);
+       padding: 0.1rem 0.2rem;
+       border-radius: 4px;
+   }
+   .card3 div p{
+       color: black;
+   }
+
+   /*  this is for the second part of the site */
+   .phase-2-container{
+       display: grid;
+       grid-template-columns: 60% 40%;
+       gap: 1rem;
+      
+   }
+   .phase-2-card-1{
+       background-color: white;
+       display: grid;
+       grid-template-columns: 1fr 2fr;
+       gap: 1rem;
+   }
+   .phase-2-card-1 img{
+       width: 100%;
+   }
+   .phase-2-card1-proper{
+       display: flex;
+       flex-direction: column;
+       row-gap: 2rem;
+       color: white;
+   }
+   .download{
+       display: flex;
+       align-items: center;
+       gap: 1rem;
+       background-color: rgb(37, 37, 71);
+       width: 50%;
+       padding: 1rem 1rem;
+       text-decoration: none;
+       border-radius: 10px;
+   }
+   .download .d-icon{
+       color: white;
+   }
+   .download span{
+       color: white;
+   }
+   .phase-2-card-2{
+       background-color: white;
+       display: flex;
+       flex-direction: column;
+       gap: 1rem;
+   }
+   .amt-raised{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+   .progress-bar{
+       width: 100%;
+       height: 0.5rem;
+       background-color: blue;
+       border-radius: 5px;
+   }
+   .time{
+       display: flex;
+       flex-direction: column;
+       gap:1rem;
+   }
+   .time-div{
+       display: flex;
+       gap: 1rem
+   }
+   .time-divs{
+       width: 4rem;
+       aspect-ratio: 1;
+       border-radius: 5px;
+       background-color: silver;
+       display: flex;
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+   }
+
+   /* ============================== this is for the second phase of the site. ( the buy token phase ) ======================== */
+
+   .buy-grid{
+        display: grid;
+       grid-template-columns: 2fr 1fr;
+       gap: 1rem; 
+   }
+   .buy-grid1{
+       background-color: white;
+       line-height: 2rem;
+   }
+   .coins-container{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 1rem;
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+   }
+   .coins{
+       background-color: rgb(183, 216, 214);
+       padding: 1rem 1rem;
+       border-radius: 10px;
+   }
+   .coin-div{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .warn1{
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+   }
+   .warning{
+       font-size: 16px;
+   }
+   .warn1 p{
+       color: rgb(124, 119, 119);
+   }
+   .progress1{
+       width: 100%;
+       height: 0.6rem;
+       background-color: rgb(154, 155, 228);
+       border-radius: 5px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .progress2{
+       width: 97%;
+       height: 0.4rem;
+       background-color: rgb(44, 44, 190);
+       
+   }
+   .bonus-container{
+       width: 100%;
+       height: 5rem;
+       border: 2px solid rgb(183, 216, 214);
+       display: flex;
+       align-items: center;
+       padding-left: 1rem;
+       border-radius: 5px;
+       gap: 1.3rem;
+       
+   }
+   .per{
+       text-align: end;
+   }
+   .avo{
+       text-align: end;
+   }
+   .bonus-div{
+       text-align: center;
+   }
+   .red-warning{
+       font-size: 0.7rem;
+       color: red;
+   }
+   .save-wallet{
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+       border-radius: 10px;
+       background-color: rgb(107, 107, 209);
+       padding: 1rem 0.4rem;
+       width: 40%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .save-wallet h3, .save-span{
+       color: white;
+   }
+   .save-wallet:hover{
+       background-color: rgb(117, 117, 156);
+       cursor: pointer;
+   }
+   .last-div-1{
+       display: flex;
+       align-items: center;
+       gap: 0.2rem;
+   }
+   .second-card-container{
+       display: grid;
+       grid-template-columns: 1fr;
+       gap: 1rem;
+   }
+
+   /* =================== the third phase of the site ==================== */
+
+   .phase-3{
+       display: grid;
+       grid-template-columns: 2fr 1fr;
+       gap: 1rem;
+   }
+   .phase-3-first{
+       background-color: white;
+      
+       height: 80vh;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       gap: 1rem;
+       padding-right: 10rem;
+       line-height: 1.5rem;
+   }
+    .phase-3-last{
+       display: flex;
+       flex-direction: column;
+       gap: 1rem;
+   } 
+   .phase-3-link-1{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .phase-3-link-2{
+       width: 100%;
+       height: 3rem;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding-left: 0.2rem;
+       padding-right: 0.2rem;
+       border-radius: 5px;
+       border: 1px solid rgb(88, 88, 175);
+
+   }
+   .phase-3-link-2 .copied{
+       background-color: rgb(88, 88, 175);
+       padding: 0.3rem 0.3rem;
+       border-radius: 5px;
+       transition: transform 350ms ease;
+   }
+   .phase-3-link-2 .copied:hover{
+       background-color: rgb(128, 128, 187);
+       transform: scale(0.96);
+       cursor: pointer;
+   }
+
+
+   /* ================= the fourth phase of the site =================== */
+
+   .t-card{
+       background-color: white;
+   }
+   .search-div{
+       position: relative;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin: 1rem auto;
+   }
+    .t-search input{
+       position: absolute;
+       height: 2rem;
+       background-color: transparent;
+       padding-left: 2rem;
+       font-size: 1rem;
+       outline: none;
+       border-width: 0ch;
+       color: grey;
+
+   } 
+   .t-search span{
+       font-size: 2rem;
+       color: grey;
+   }
+   .setting-icon span{
+       background-color: rgb(106, 106, 141);
+       padding: 0.2rem 0.2rem;
+       color: white;
+       border-radius: 5px;
+   }
+   table{
+       width: 100%;
+       text-align: center;
+   }
+   .t-flex{
+       display: flex;
+       gap: 0.4rem;
+
+   }
+   .icon-green{
+       font-size: 2rem;
+       color: rgb(142, 212, 142);
+   }
+   td{
+       padding-top: 1.5rem;
+   }
+   .fade{
+       color: grey;
+       font-size: 0.7rem;
+   }
+   .purchase{
+       padding: 0.2rem 0.6rem;
+       border: 1.5px solid rgb(142, 212, 142);
+       border-radius: 5px;
+       text-decoration: none;
+       color: grey;
+   }
+   .icon-eye{
+    background-color: rgb(106, 106, 141);
+    padding: 0.2rem 0.2rem;
+    color: white;
+    border-radius: 5px;
+   }
+   
+
+   /* ================ the fifth phase of the site (about profiles) ============== */
+   .profile-main-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    }
+   .profile-main-lower-div{
+       background-color: white;
+   }
+   .profile-main-upper-div{
+       background-color: white;
+   }
+   .group-changer{
+       display: flex;
+       gap: 1rem;
+       margin-top: 1rem;
+       color: rgb(37, 36, 36);
+   }
+   .group-changer-div{
+      
+       padding-bottom: 0.5rem;
+       
+   }
+   .group-changer-div:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+   }
+   .active{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+   }
+   .profile-main-lower-div{
+       display: flex;
+       flex-direction: column;
+       gap: 1rem;
+   }
+   .current-status{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+   .current-status .two-factor{
+       border-radius: 5px;
+       background-color: rgb(72, 72, 121);
+       padding: 0.5rem 1rem;
+   }
+   .current-status .two-factor a{
+       color: white;
+       text-decoration: none;
+   }
+   .currents{
+       font-size: 0.8rem;
+   }
+   .currents span{
+       background-color: rgb(72, 72, 121);
+       padding: 0.2rem 0.2rem;
+       border-radius: 5px;
+       color: white;
+   }
+   .profile-form{
+       /* change the display later here to grid */
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 1rem;
+       margin-top: 1rem;
+   }
+   .form-group{
+       margin-bottom: 1rem;
+       position: relative;
+   }
+   .form-group input{
+       position: absolute;
+       width: 100%;
+       height: 2.5rem;
+       background-color: transparent;
+       border-radius: 5px;
+       border-color: rgb(97, 97, 136);
+       border-width: 1px;
+       padding-left: 2rem;
+       font-size: 16px;
+   }
+   .form-group input:focus{
+       background-color: transparent;
+   }
+   .left-profiles{
+       display: flex;
+       flex-direction: column;
+       gap: 3rem;
+   }
+   .right-profiles{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+   }
+   .form-group label{
+       position: absolute;
+       margin-top: 0.6rem;
+       margin-left: 0.4rem;
+       font-size: 0.9rem;
+       color: rgb(71, 67, 67);
+   }
+   .form-input:focus ~ .form-label,
+   .form-input:not(:placeholder-shown).form-input:not(:focus)~ .form-label {
+  
+        margin-top: -0.6rem;
+        padding: 0.2rem 0.2rem;
+        background-color: white;
+   }
+   .profile-btn button{
+       background-color: rgb(72, 72, 121);
+       color: white;
+       padding: 0.6rem 1rem;
+       border-radius: 5px;
+       outline: none;
+       font-size: 1rem;
+       transition: transform 350ms ease-out;
+   }
+   .profile-btn button:hover{
+       background-color: rgb(112, 112, 153);
+       transform: scale(1.098);
+   }
+
+   .settings{
+       /* ===== chnage here to display flex later ========= */
+    display: none;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+   }
+   .setting-roll{
+       display: flex;
+       gap: 1rem;
+       align-items: center;
+   }
+   .setting-span-1{
+       width: 4rem;
+       height: 2rem;
+       background-color: rgb(112, 112, 153);
+       border-radius: 50px;
+       display: flex;
+       align-items: center;
+   }
+   .setting-span-2{
+       width: 1.5rem;
+       height: 1.5rem;
+       background-color: white;
+       border-radius: 50%;
+       margin-left: 0.2rem;
+   }
+   .setting-roll a{
+       text-decoration: none;
+   }
+   .setting-btn button{
+        padding: 0.5rem 3rem;
+        color: white;
+        background-color: rgb(112, 112, 153);
+        border-radius: 5px;
+        outline: none;
+        transition: transform 350ms ease-out;
+   }
+   .setting-btn button:hover{
+       transform: scale(1.098);
+       background-color: rgb(168, 168, 219);
+   }
+   .passwords{
+       /* ================= just remove the display none here =========== */
+       display: none;
+       margin-top: 2rem;
+   }
+   .passwords form{
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       gap: 1rem;
+   }
+   .password-form-group input{
+       display: block;
+       margin-top: 0.2rem;
+       width: 50%;
+       height: 2.5rem;
+       border-radius: 5px;
+       padding-left: 2rem;
+       background-color: transparent;
+   }
+   .password-form-group label{
+       font-weight: 600;
+   }
+   .warning-password-writeup{
+       display: flex;
+       flex-direction: column;
+       gap: 0.3rem;
+   }
+   .warning-1{
+       display: flex;
+       gap: 0.3rem;
+       align-items: center;
+   }
+   .warning-1 span{
+       font-size: 1rem;
+        color: blue;
+   }
+   .warning-1 p{
+       color: blue;
+       font-size: 0.8rem;
+   }
+   .warning-2{
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+   }
+   .warning-2 span{
+    font-size: 1rem;
+    color: red;
+   }
+   .warning-2 p{
+    color: red;
+    font-size: 0.8rem;
+   }
+   .passwords-btn button{
+       margin-top: 2rem;
+       padding: 0.5rem 2rem;
+       border-radius: 5px;
+       outline: none;
+       color: white;
+        background-color: rgb(112, 112, 153);
+        transition: transform 350ms ease;
+   }
+   .passwords-btn button:hover{
+       background-color: rgb(147, 147, 202);
+       transform: scale(1.098);
+   }
+
+   /* .setting-span-1[data-move="flase"]{
+       margin-right: auto;
+   }
+   .setting-span-1[data-move="true"]{
+    margin-left: auto;
+    background-color: blue;
+} */
+.setting-span-2[data-move="flase"]{
+    margin-right: auto;
+}
+.setting-span-2[data-move="true"]{
+    margin-left: auto;
+    background-color: blue;
+}
+.setting-span-2x[data-move="flase"]{
+    margin-right: auto;
+}
+.setting-span-2x[data-move="true"]{
+    margin-left: auto;
+    background-color: blue;
+}
+
+
+   
+
+  
+
+   
+
+/*  for mobile media queries */
+@media screen and (max-width:49rem){
+    .menu-section{
+        width: 50%;
+        height: 300%;
+        color: black;
+        position: absolute;
+       
+        
+        background-color: white;
+        z-index: 9999;
+    }
+    .menu-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        gap: 2rem;
+        gap: 1rem;
+        margin: 0 auto;
+        padding: 0 10px;
+        padding-top: 3rem;
+    }
+    .menu-section{
+        display: none;
+    }
+    .toggle-icon{
+        position: relative;
+        display: inline-block;
+    
+    }
+    .passport h3{
+       display: none;
+
+    }
+    .btn-close{
+        display: none;
+    }
+    .btn-close:hover{
+        cursor: pointer;
+    }
+    .btn-open{
+        position: relative;
+    }
+    .btn-open:hover{
+        cursor: pointer;
+    }
+    .pass-photo{
+        width: 3rem;
+        height: 3rem ;
+        background-color: grey;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pass-photo img{
+        width: 2rem;
+        aspect-ratio: 1;
+        border-radius: 50%;
+    }
+    .menu-items{
+        width: 100%;
+    }
+    .menu-items a span{
+        color: rgb(71, 67, 67);
+    }
+    .menu-items a h4{
+        color: rgb(71, 67, 67);
+    }
+    .first-card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .first-card-sec{
+        z-index: 9999;
+    }
+    .first-card-sec .containers{
+        margin-top: 0.5rem;
+    }
+    .phase-2-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .phase-2-card-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .phase-2-card-1 img{
+        width: 50%;
+    }
+
+    /* =========== for the second phase of the site ============== */
+    .buy-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bonus-div h4{
+        font-size: 0.8rem;
+    }
+    .second-card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    /* =============== third part of the site =============== */
+    .phase-3{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+   
+
+    /*  ================= this is the fourth phase ============= */
+    .hidden{
+        display: none;
+    }
+
+    thead tr th{
+        font-size: 0.6rem;
+    }
+
+    /* ==================== this is the part which is responsible for profile====================== */
+    .group-changer h3{
+        font-size: 0.6rem;
+    }
+    .profile-form{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .right-profiles{
+        padding-bottom: 2rem;
+    }
+    .password-form-group input{
+        width: 100%;
+    }
+    .cut-in-mobile{
+        display: none;
+    }
+    .two-factor a{
+        font-size: 0.7rem;
+    }
+    .currents{
+        font-size: 0.7rem;
+    }
+    .coin-div h4{
+        font-size: 0.6rem;
+    }
+    .bonus-div h4, h2{
+        font-size: 0.6rem;
+    }
+    .save-wallet {
+        width: fit-content;
+        display: flex;
+        gap: 0.3rem;
+    }
+    
+}
